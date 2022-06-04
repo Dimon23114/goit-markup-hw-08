@@ -1,0 +1,49 @@
+.loft {
+    @media screen and (max-width: 767px) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+.loft-container {
+    @media screen and (max-width: 767px) {
+        justify-content: space-between;
+    }
+}
+
+.loft-nav {
+    @media screen and (max-width:767px) {
+        display: none;
+    }
+}
+.menu {
+    position: relative;
+
+    &:not(:last-child) {
+        @media screen and (max-width:1199px) {
+            margin-bottom: 10px;
+        }
+    }
+    &:last-child {
+        @media screen and (min-width:1200px) {
+            margin-left: 30px;
+        }
+    }
+}
+
+.contacts-nav {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.logo{
+    @media screen and (min-width:768px) {
+        margin-right: 93px;
+    }
+}

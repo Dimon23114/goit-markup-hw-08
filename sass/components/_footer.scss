@@ -1,0 +1,156 @@
+.basement {
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer {
+    display: flex;
+    align-items: baseline;
+
+    &-text{
+            color: #ffffff;
+            font-family: Roboto,
+            sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+    }
+
+    &-list{
+        display: flex;
+        align-items: center;
+    }
+
+    &-icon{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        fill: #ffffff;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.bottom-logo {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.adress {
+    padding: 0px;
+    margin: 0;
+    display: inline-block;
+    color: $white-color;
+    line-height: 1.7;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.conect-us {
+    margin-left: 70px;
+
+}
+
+
+.footer-item {
+    width: 44px;
+    height: 44px;
+
+    &+&{
+        margin-left: 10px;
+    }
+}
+
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+
+    &:hover,
+    &:focus{
+        background-color: $blue-color;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+
+.signature-form {
+    margin-left: 93px;
+}
+
+.text-form {
+    color: #ffffff;
+    font-family: Roboto,
+        sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.flex-form {
+    display: flex;
+}
+
+.form-subscribe {
+    display: flex;
+}
+
+.form-subscribe:focus-within .form-input {
+    border-color: rgba(33, 150, 243, 1);
+}
+
+.form-input {
+    display: inline-block;
+    width: 358px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    color: #ffffff;
+    background-color: $blue-color;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    border: transparent;
+}
+
+.form-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+}
+
+
+.box-bott {
+    padding: 0px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.7;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-list {
+    margin-top: 9px;
+}

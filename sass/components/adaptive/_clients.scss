@@ -1,0 +1,33 @@
+.clients-list{
+    @media screen and (min-width:768px) and (max-width:1199px) {}
+    
+    @media screen and (min-width:1200px) {
+        display: flex;
+        align-items: center;
+        gap: 0;
+    }
+}
+
+.clients-item{
+    @media screen and (min-width:480px) {
+        width: 210px;
+        height: 92px;
+    }
+    
+    
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        width: 226px;
+        height: 92px;
+    }
+    
+    @media screen and (min-width:1200px) {
+        width: 170px;
+        height: 92px;
+    }
+    
+    @media screen and (min-width:1200px) {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}
