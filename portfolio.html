@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -67,7 +67,22 @@
                     <li class="examples-port">
                         <a class="examples-link" href="">
                             <div class="card-thumb">
-                                <img src="./images/img-portfolio.jpg" alt="Веб сайт" width="370" height="294">
+                                <picture>
+                                    <source srcset="
+                                        ./images/portfolio/tehno-l.jpg    1x,
+                                        ./images/portfolio/tehno-l@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/tehno-m.jpg    1x,
+                                        ./images/portfolio/tehno-m@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/tehno-s.jpg 1x,
+                                        ./images/portfolio/tehno-s@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                    <img class="card-set_img" src="./images/portfolio/tehno-s.jpg" alt="Веб сайт" width="370"
+                                        height="294">
+                                </picture>
                                 <div class="overlay">
                                     <p class="overlay-text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
@@ -84,7 +99,22 @@
                     <li class="examples-port">
                         <a class="examples-link" href="">
                             <div class="card-thumb">
-                                <img src="./images/img-portfolio1.jpg" alt="постер игры в баскетбол" width="370" height="294">
+                                <picture>
+                                    <source srcset="
+                                        ./images/portfolio/poster-l.jpg    1x,
+                                        ./images/portfolio/poster-l@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/poster-m.jpg    1x,
+                                        ./images/portfolio/poster-m@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/poster-s.jpg 1x,
+                                        ./images/portfolio/poster-s@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                    <img class="card-set_img" src="./images/portfolio/poster-s.jpg" alt="постер игры в баскетбол" width="370"
+                                        height="294">
+                                </picture>
                                 <div class="overlay">
                                     <p class="overlay-text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
@@ -101,7 +131,21 @@
                     <li class="examples-port">
                         <a class="examples-link" href="">
                             <div class="card-thumb">
-                                <img src="./images/img-portfolio2.jpg" alt="логотип ресторана" width="370" height="294">
+                                <picture>
+                                    <source srcset="
+                                        ./images/portfolio/restoran-l.jpg    1x,
+                                        ./images/portfolio/restoran-l@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/restoran-m.jpg    1x,
+                                        ./images/portfolio/restoran-m@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/restoran-s.jpg 1x,
+                                        ./images/portfolio/restoran-s@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                    <img class="card-set_img" src="./images/portfolio/restoran-s.jpg" alt="логотип ресторана" width="370" height="294">
+                                </picture>
                                 <div class="overlay">
                                     <p class="overlay-text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
@@ -118,7 +162,24 @@
                     <li class="examples-port">
                         <a class="examples-link" href="">
                             <div class="card-thumb">
-                                <img src="./images/img-portfolio3.jpg" alt="Картинка компьтерных наушников" width="370" height="294">
+                                <picture>
+                                    <source srcset="
+                                        ./images/portfolio/projectp-l.jpg    1x,
+                                        ./images/portfolio/projectp-l@2x.jpg 2x
+                                        " media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/projectp-m.jpg    1x,
+                                        ./images/portfolio/projectp-m@2x.jpg 2x
+                                        " media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/projectp-s.jpg 1x,
+                                        ./images/portfolio/projectp-s@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                    <img class="card-set_img" src="./images/portfolio/projectp-s.jpg" alt="Картинка компьтерных наушников" width="370"
+                                        height="294">
+                                </picture>
                                 <div class="overlay">
                                     <p class="overlay-text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
@@ -135,7 +196,23 @@
                     <li class="examples-port">
                         <a class="examples-link" href="">
                             <div class="card-thumb">
-                                <img src="./images/img-portfolio4.jpg" alt="две небольшие коробки" width="370" height="294">
+                                <picture>
+                                    <source srcset="
+                                        ./images/portfolio/projectb-l.jpg    1x,
+                                        ./images/portfolio/projectb-l@2x.jpg 2x
+                                        " media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/projectb-m.jpg    1x,
+                                        ./images/portfolio/projectb-m@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/projectb-s.jpg 1x,
+                                        ./images/portfolio/projectb-s@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                    <img class="card-set_img" src="./images/portfolio/projectb-s.jpg" alt="две небольшие коробки" width="370"
+                                        height="294">
+                                </picture>
                                 <div class="overlay">
                                     <p class="overlay-text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
@@ -152,7 +229,24 @@
                     <li class="examples-port">
                         <a class="examples-link" href="">
                             <div class="card-thumb">
-                                <img src="./images/img-portfolio5.jpg" alt="на мониторе изображен сайт" width="370" height="294">
+                                <picture>
+                                    <source srcset="
+                                        ./images/portfolio/inspiration-l.jpg    1x,
+                                        ./images/portfolio/inspiration-l@2x.jpg 2x
+                                        " media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/inspiration-m.jpg    1x,
+                                        ./images/portfolio/inspiration-m@2x.jpg 2x
+                                        " media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/inspiration-s.jpg 1x,
+                                        ./images/portfolio/inspiration-s@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                    <img class="card-set_img" src="./images/portfolio/inspiration-s.jpg" alt="на мониторе изображен сайт" width="370"
+                                        height="294">
+                                </picture>
                                 <div class="overlay">
                                     <p class="overlay-text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
@@ -169,7 +263,22 @@
                     <li class="examples-port">
                         <a class="examples-link" href="">
                             <div class="card-thumb">
-                                <img src="./images/img-portfolio6.jpg" alt="журнал ограниченным тиражом" width="370" height="294">
+                                <picture>
+                                    <source srcset="
+                                        ./images/portfolio/izdaniel-l.jpg    1x,
+                                        ./images/portfolio/izdaniel-l@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/izdaniel-m.jpg    1x,
+                                        ./images/portfolio/izdaniel-m@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/izdaniel-s.jpg 1x,
+                                        ./images/portfolio/izdaniel-s@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />                              
+                                    <img class="card-set_img" src="./images/portfolio/izdaniel-s.jpg" alt="журнал ограниченным тиражом" width="370"
+                                        height="294">
+                                </picture>
                                 <div class="overlay">
                                     <p class="overlay-text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
@@ -186,7 +295,23 @@
                     <li class="examples-port">
                         <a class="examples-link" href="">
                             <div class="card-thumb">
-                                <img src="./images/img-portfolio7.jpg" alt="ярлык" width="370" height="294">
+                                <picture>
+                                    <source srcset="
+                                        ./images/portfolio/projectl-l.jpg    1x,
+                                        ./images/portfolio/projectl-l@2x.jpg 2x
+                                        " media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/projectl-m.jpg    1x,
+                                        ./images/portfolio/projectl-m@2x.jpg 2x
+                                        " media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/projectl-s.jpg 1x,
+                                        ./images/portfolio/projectl-s@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                    <img class="card-set_img" src="./images/portfolio/projectl-s.jpg" alt="ярлык" width="370" height="294">
+                                </picture>
                                 <div class="overlay">
                                     <p class="overlay-text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
@@ -203,7 +328,23 @@
                     <li class="examples-port">
                         <a class="examples-link" href="">
                             <div class="card-thumb">
-                                <img src="./images/img-portfolio8.jpg" alt="бизнес сайт" width="370" height="294">
+                                <picture>
+                                    <source srcset="
+                                        ./images/portfolio/groving-l.jpg    1x,
+                                        ./images/portfolio/groving-l@2x.jpg 2x
+                                        " media="(min-width: 1200px)"
+                                        type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/groving-m.jpg    1x,
+                                        ./images/portfolio/groving-m@2x.jpg 2x
+                                        " media="(min-width: 768px)"
+                                        type="image/jpeg" />
+                                    <source srcset="
+                                        ./images/portfolio/groving-s.jpg 1x,
+                                        ./images/portfolio/groving-s@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpeg" />
+                                    <img class="card-set_img" src="./images/portfolio/groving-s.jpg" alt="бизнес сайт" width="370" height="294">
+                                </picture>
                                 <div class="overlay">
                                     <p class="overlay-text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю

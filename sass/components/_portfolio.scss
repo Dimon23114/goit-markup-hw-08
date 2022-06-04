@@ -21,8 +21,8 @@
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
     opacity: 0;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms $timing-function,
+        transform 250ms $timing-function;
     
     &-text{
         position: absolute;
@@ -79,9 +79,9 @@
     border: 0;
     border-radius: 4px;
     transition: color 250ms,
-        cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms,
-        cubic-bezier(0.4, 0, 0.2, 1), backgrond-color 250ms,
-        cubic-bezier(0.4, 0, 0.2, 1);
+        $timing-function, box-shadow 250ms,
+        $timing-function, backgrond-color 250ms,
+        $timing-function;
 
     &:hover,
     &:focus{
@@ -141,7 +141,7 @@
 .examples-link {
     display: block;
     text-decoration: none;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms $timing-function;
 
     &:hover,
     &:focus{
