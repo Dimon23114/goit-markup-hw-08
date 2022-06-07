@@ -1,0 +1,12 @@
+.hero{
+    @media screen and (max-width: 481px) {
+        height: auto;
+        max-width: 480px;
+    }
+}
+
+.hero-titlte{
+    @media screen and (max-width: 480px) {
+        max-width: 696px;
+    }
+}

@@ -1,8 +1,18 @@
 .employeers{
+    @media screen and (min-width:320px) and (max-width: 480px){
+        display: inline;
+    }
+
     @media screen and (min-width:768px) and (max-width:1199px) {
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;    
+        flex-basis: calc((100% / 2) - $gap );
+        gap: 30px;   
+        margin-left: - $gap; 
+
+        &:nth-child(3) {
+            margin-left: 0;
+        }
     }
 
     @media screen and (min-width:1200px) {
@@ -28,7 +38,20 @@
 }
 
 .employee{
-    @media screen and (max-width:479px) {
+
+    @media screen and (min-width:320px) and (max-width: 480px) {
+        margin-right: 0;
+        margin-left: 0;
+        width: 450px;
+    }
+
+    @media screen and (max-width: 480px){
+        .employeers> .employee + .employee{
+            margin-left: 0;
+        }
+    }
+
+    @media screen and (max-width:480px) {
         &:not(:last-child) {
             margin-bottom: 30px;
         }
@@ -39,11 +62,42 @@
         }
     }
     
-    @media screen and (min-width:768px) and (max-width:1199px) {}
+    @media screen and (min-width:768px) and (max-width:1199px) {
+
+        width: 354px;
+        
+        .employeers>&+& {
+            margin-left: 0;
+        }
+    }
+
+    @media screen {
+        
+    }
     
     @media screen and (min-width:1200px) {
         &:not(:last-child) {
             margin-right: 30px;
         }
     }
+
+}
+
+
+
+.photo{
+    display: block;
+    width: 100%;
+    height: auto;
+    
+    @media screen and (min-width:320px) and (max-width: 480px){
+        width: 450px;
+        height: auto;
+    }
+
+    @media screen and(min-width: 768px) {
+        width: 354px;
+        height: 374px;
+    }
+    
 }
