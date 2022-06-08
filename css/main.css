@@ -1468,6 +1468,11 @@ address {
     display: none;
   }
 }
+@media screen and (min-width: 1200px) {
+  .loft-nav {
+    margin-left: 93px;
+  }
+}
 
 .menu {
   position: relative;
@@ -1475,7 +1480,7 @@ address {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .menu {
     margin: 0;
   }
