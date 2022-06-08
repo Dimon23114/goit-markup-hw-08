@@ -1663,7 +1663,6 @@ address {
 
 @media screen and (min-width: 480px) {
   .benefits-thumb {
-    width: 450px;
     height: 120px;
   }
 }
@@ -1701,6 +1700,8 @@ address {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .employeers {
     display: inline;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1746,10 +1747,12 @@ address {
   }
 }
 
+.employee {
+  margin-right: auto;
+  margin-left: auto;
+}
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .employee {
-    margin-right: 0;
-    margin-left: 0;
     width: 450px;
   }
 }
@@ -1783,12 +1786,12 @@ address {
 }
 
 .photo {
-  display: block;
   width: 100%;
   height: auto;
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .photo {
+    display: block;
     width: 450px;
     height: auto;
   }
@@ -1810,6 +1813,8 @@ address {
     -ms-flex-preferred-size: calc(50% - 30px);
         flex-basis: calc(50% - 30px);
     width: 480px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1928,6 +1933,13 @@ address {
 }
 
 @media screen and (max-width: 767px) {
+  .logo {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .conect-us {
     margin-left: auto;
     margin-right: auto;
@@ -1953,7 +1965,7 @@ address {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .signature-form {
     margin: 0;
   }

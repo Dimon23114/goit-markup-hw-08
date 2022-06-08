@@ -4,8 +4,8 @@
         flex-wrap: wrap;
         flex-basis: calc(100% / 2 - $gap);
         width: 480px;
-        
-        
+        margin-right: auto;
+        margin-left: auto;
     }
 
     @media screen and (min-width:768px) and (max-width:1199px) {

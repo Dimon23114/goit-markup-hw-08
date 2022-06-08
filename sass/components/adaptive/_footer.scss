@@ -28,6 +28,13 @@
     }
 }
 
+.logo{
+    @media screen and (max-width:767px){
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 .conect-us{
     @media screen and(max-width: 767px) {
         margin-left: auto;
@@ -52,7 +59,7 @@
 }
 
 .signature-form{
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
         margin: 0;
     }
 
